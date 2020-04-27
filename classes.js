@@ -36,11 +36,14 @@ function three () {
   three.classList.add('purple')
 }
 
-function makeVisible () {
-var makeVisible = document.getElementsByClassName('invisible')[0]
+function makeVisible() {
+  var four = document.getElementByClassName("invisible")[0];
+  
+  four.classList.remove("invisible");
 
 
 four.classList.add('visible')
 }
+
 
 
